@@ -1,0 +1,25 @@
+<p>register works!</p>
+<form [formGroup]="register" (ngSubmit)="registerresto()">
+    <div class="form-group">
+        <div class="form-group">
+            <label>First Name</label>
+            <input type="name" class="form-control" placeholder="Enter First name" formControlName="firstname">
+          </div> 
+          <div class="form-group">
+            <label>Last Name</label>
+            <input type="name" class="form-control" placeholder="Enter Last name" formControlName="lastname">
+          </div> 
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" formControlName="email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">New Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="New Password" formControlName="password">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Confirm Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Password" formControlName="confirmpassword">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

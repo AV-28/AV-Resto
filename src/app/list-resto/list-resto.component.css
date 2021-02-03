@@ -1,0 +1,43 @@
+
+.box{
+    position: absolute;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    background-color: #0000008a;
+    width:90%;
+    height: 100%;
+    top:7.9%;
+    left:0;
+    right: 0;
+    
+}
+.box h1{
+    color: cornsilk;
+    font-size:50px;
+    margin-top: 3%;
+    margin-left: 30%;
+    margin-right: 25%;
+    letter-spacing: 3px;
+    top: 5%;
+}
+
+
+.table{
+    color: white;
+    font: bold;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   border-collapse: collapse;
+   margin-top: 5%;
+   margin-left: 10%;
+   margin-right: 0%;
+}
+.table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.table th {
+    padding-top: 12px;
+    padding-bottom: 10px;
+    
+}

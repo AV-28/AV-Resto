@@ -1,0 +1,16 @@
+p{
+    color:white;
+}
+.box{
+        box-shadow: 0 5px 15px rgba(0,0,0,.5);
+        background-color: #0000008a;
+        width:50%;
+        height: 50%;
+        top:7.9%;
+}
+.luser{
+    color: white;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    }
