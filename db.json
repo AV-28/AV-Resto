@@ -1,19 +1,88 @@
 {
-  "posts": [
+  "restaurants": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "AV resto",
+      "address": "xyz",
+      "email": "xyz@gmail.com"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "name": "AV2 resto",
+      "address": "xyz2",
+      "email": "xyzabc@gmail.com"
+    },
+    {
+      "name": "AV3 resto",
+      "address": "xyz28",
+      "email": "xyz28@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "AV4 resto",
+      "address": "xyz28",
+      "email": "xyz28@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "AV5 resto",
+      "address": "xyz28",
+      "email": "xyz28@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "mcd",
+      "email": "arpiy@gmail.com",
+      "address": "Indore",
+      "id": 6
+    },
+    {
+      "name": "jewhj",
+      "email": "arpiy@gmail.com",
+      "address": "dominos",
+      "id": 7
+    },
+    {
+      "name": "amul",
+      "email": "arpiyagffah@gmail.com",
+      "address": "Bhopal",
+      "id": 8
+    },
+    {
+      "name": "dominos_1",
+      "email": "arpiyagffah@gmail.com",
+      "address": "Indore",
+      "id": 9
+    },
+    {
+      "name": "sbambmx",
+      "email": "sbvbs",
+      "address": "nbsxmns",
+      "id": 10
+    },
+    {
+      "name": null,
+      "email": null,
+      "address": null,
+      "id": 11
+    },
+    {
+      "name": null,
+      "email": null,
+      "address": null,
+      "id": 12
+    },
+    {
+      "name": null,
+      "email": null,
+      "address": null,
+      "id": 13
+    },
+    {
+      "name": null,
+      "email": null,
+      "address": null,
+      "id": 14
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
