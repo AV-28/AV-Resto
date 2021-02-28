@@ -1,6 +1,22 @@
+
 .form-group{
     color:white;
 }
 .form-group ,.form-text text-muted{
     color:white;
+}
+.box{
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    background-color: #0000008a;
+    margin-right: 30%;
+    margin-left: 30%;
+    position: relative;
+    margin-top: 5%;
+}
+h1{
+    margin-left: 37%;
+    color: rgb(51, 49, 49);
+    background-color:#f4a606 ;
+    margin-right: 37%;
+    font-style: revert;
 }

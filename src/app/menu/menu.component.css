@@ -1,0 +1,44 @@
+.row{
+    box-shadow:  0 5px 15px rgba(0,0,0,.5);
+    background-color: #0000008a;
+    color: white;
+    position: absolute;
+    align-items: center;
+    vertical-align: 25px;
+    -ms-transform-origin-x:0px;
+    margin-left:13%;
+}
+.column {
+    float: right;
+    width: 50%;
+    padding: 100px;
+  }
+h1{
+    margin-left: 45%;
+    color: rgb(51, 49, 49);
+    background-color:#f4a606 ;
+    margin-right: 45%;
+    font-style: revert;
+}
+  .p{
+     margin-left: 50%;
+  }
+  #h2 {
+    padding: 70px 0;
+    border: 3px solid green;
+    text-align: center;
+  }
+  .prize{
+      border: green;
+      border-radius: 15px;
+      border-style: solid;
+     background-color: green;
+      color:white;
+      margin-left: 45%;
+      box-sizing: content-box;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}

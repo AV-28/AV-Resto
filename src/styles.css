@@ -1,4 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
-body{
-    background-repeat: repeat;
+.body{
+    background-repeat: no-repeat;
+    margin-top: 0%;
+    margin-bottom: 50%;
+    width: 50%;
+    height: 50%;
+}
+
+.highlight{
+    background-color: rgb(133, 127, 127);
+    border-radius: 15px;
+    border: 1.0px;
+    z-index: 1;
+    transform: scale(1.02);
 }

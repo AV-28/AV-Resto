@@ -2,5 +2,22 @@
     font: bold;
     font-style: unset;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+    color: white;   
+}
+.nav-link:focus{
+    background-color:  rgb(133, 127, 127);
+    border-radius: 15px;
+    border: 1.0px;
+    z-index: 1;
+    transform: scale(0.97px);
+    animation: anim-shadows .3s forwards;
+}
+footer{
+    background-color: #f4a606;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    left: 0%;
+    text-decoration-color: white;
 }

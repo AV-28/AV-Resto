@@ -1,3 +1,4 @@
+import { RestoService } from './../resto.service';
 import { FormGroup, FormControl, FormControlName } from '@angular/forms';
 import { Component, OnInit } from '@angular/core';
 
@@ -15,13 +16,16 @@ export class RegisterComponent implements OnInit {
     confirmpassword:new FormControl('')
   })
 
-  constructor() { }
+  constructor(private registeruser: RestoService) { }
   
 
   ngOnInit(): void {
   }
   registerresto(){
-    console.warn(this.register.value);
+    this.registeruser.saveuser(this.register.value).subscribe((result)=>{
+      console.warn("result is here",result);
+      this.register.reset({});
+    })
   }
 
 }

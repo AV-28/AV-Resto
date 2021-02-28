@@ -1,7 +1,30 @@
+h1{
+    color: whitesmoke;
+    align-self: center;
+    font-size: 45px;
+    margin-left: 23%;
+    font-family :Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgb(51, 49, 49);
+    background-color:#f4a606 ;
+    margin-right: 18%;
+    font-style: revert;
+}
 .form-group{
     font-variant: normal;
     font-style: normal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-display: auto;
-    color: rgb(236, 226, 226);
+    color: rgba(241, 238, 238, 0.932);
+}
+.button {
+    color: rgb(16, 11, 20);
+}
+.box{
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    color: white;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    margin-right: 60%;
 }

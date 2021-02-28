@@ -6,7 +6,8 @@ import {HttpClient} from '@angular/common/http'
 })
 export class RestoService {
 
-  url = "http://localhost:3000/restaurants"
+  url = "http://localhost:3000/restaurants";
+  rooturl =  "http://localhost:3000/users"
   constructor(private http:HttpClient ) {}
     getList()
     {
@@ -14,5 +15,8 @@ export class RestoService {
     }
     saveResto(data: any){
       return this.http.post(this.url,data);
+    }
+    saveuser(userdata: any){
+     return this.http.post(this.rooturl,userdata);
     }
 }

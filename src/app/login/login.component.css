@@ -1,16 +1,30 @@
 p{
-    color:white;
+    align-self: center;
+    font-size: 45px;
+    margin-left: 23%;
+    font-family :Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgb(51, 49, 49);
+    background-color:#f4a606 ;
+    margin-right: 30%;
+    font-style: revert;
 }
 .box{
+        position: absolute;
         box-shadow: 0 5px 15px rgba(0,0,0,.5);
         background-color: #0000008a;
         width:50%;
         height: 50%;
         top:7.9%;
+        margin-left:20%;
+        margin-top: 5%;
+        margin-bottom: 20%;
+        font-size:20px;
+        width: 400px;
+        height: 500px;
+        position: absolute;
 }
 .luser{
     color: white;
-    width: 400px;
-    height: 500px;
-    position: absolute;
+   
     }
