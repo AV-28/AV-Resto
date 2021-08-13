@@ -1,1 +1,1 @@
-# Restaurant site in master branch
+# Restaurant project in master branch
